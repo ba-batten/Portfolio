@@ -66,7 +66,12 @@
         </section>
         <!-- TODO: Populate list with featured works via Knockout -->
         <section class="col-md-9">
-          <ul>
+          <ul data-bind="foreach: prevWork">
+            <li>
+              <img data-bind="attr: { src: smallPic, alt: name }">
+              <a data-bind="attr: { href: url }" target="_blank"><h3 data-bind="text: name"></h3></a>
+              <p data-bind="text: description"></p>
+            </li>
           </ul>
         </section>
       <!-- END ROW -->
