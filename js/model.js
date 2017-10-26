@@ -29,7 +29,8 @@ function AppViewModel() {
       heading: 'Check Out My Blog',
       content: 'Want to know my thoughts on all things web development and programming?  Maybe you want ' +
       'some insight on whatever I\'m thinking about that day or an in depth analysis of my favorite sports teams. ' +
-      'Check out my new blog for all that an more!'
+      'Check out my new blog for all that and more!',
+      link: '#'
     },
     {
       heading: 'How To Get Up With Me',
