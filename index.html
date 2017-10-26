@@ -20,10 +20,10 @@
         </div>
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -48,7 +48,7 @@
       </div>
 
       <!-- About Me list -->
-      <div class="row">
+      <div class="row" id="about-me">
         <ul class="col-sm-12 text-justify" data-bind="foreach: aboutMe">
           <li class="col-md-3">
             <h2 data-bind="text: heading" class="text-center"></h2>
@@ -59,7 +59,7 @@
       </div>
 
       <!-- Featured Work -->
-      <div class="row">
+      <div class="row" id="portfolio">
         <h2>Featured Work</h2>
         <hr>
         <section class="col-md-3">
@@ -78,7 +78,7 @@
       </div>
 
       <!-- Contact Me -->
-      <div class="row">
+      <div class="row" id="contact">
         <h2>Contact Me</h2>
         <hr>
         <!-- TODO: Add contact information -->
