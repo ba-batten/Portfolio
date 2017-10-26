@@ -1,13 +1,22 @@
 function AppViewModel() {
   var self = this;
 
+  self.intro = ko.observable(
+    {
+      heading: 'Hi, I\'m Brandon and I am a Front-End developer.',
+      content: 'My passion is creating beautiful web pages from scratch with elegant code. ' +
+        'Take a look around and get to know a little bit about me and the work I do.  ' +
+        'Hopefully we can work together on something amazing.'
+    }
+  );
+
   self.aboutMe = ko.observableArray([
     {
-      heading: 'What I Can Do',
+      heading: 'Who I Am',
       content: ''
     },
     {
-      heading: 'Who I Am',
+      heading: 'What I Can Do',
       content: ''
     },
     {
