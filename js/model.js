@@ -20,9 +20,8 @@ function AppViewModel() {
     },
     {
       heading: 'What I Can Do',
-      content: 'My tech tool bag is equiped with the building blocks of the web.  HTML provides the structure, ' +
-        'CSS adds style, and JavaScript is the logic behind it all.  I use several frameworks and libraries ' +
-        ' such as Bootstrap, jQuery, and Knockout JS.  I can design test suites with Jasmine.  Some other ' +
+      content: 'My tech tool bag consists of HTML, CSS, and JavaScrtip.  I use several frameworks and libraries ' +
+        ' such as Bootstrap, jQuery, and Knockout JS.  I design test suites with Jasmine.  Some other ' +
         'technologies I take advantage of are Git for version control and Adobe products like' +
         'Photoshop and Illustrator.  As I grow as a developer, I will be adding more tools to my tool bag.'
     },
