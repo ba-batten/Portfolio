@@ -13,7 +13,10 @@ function AppViewModel() {
   self.aboutMe = ko.observableArray([
     {
       heading: 'Who I Am',
-      content: ''
+      content: 'I built my first web site in high school and have carried a passion for web development ' +
+        'ever since.  There is not a day that goes by that I am not writing code or planning out a new project.' +
+        '  You can find me hanging out with my family, taking in a nice day watching football, or knocking ' +
+        ' around golf balls when I\'m not spending quality time with my laptop and favorite text-editor .'
     },
     {
       heading: 'What I Can Do',
