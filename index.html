@@ -45,11 +45,11 @@
 
       <!-- About Me list -->
       <div class="row">
-        <ul class="col-sm-12">
-          <li class="col-md-3"></li>
-          <li class="col-md-3"></li>
-          <li class="col-md-3"></li>
-          <li class="col-md-3"></li>
+        <ul class="col-sm-12" data-bind="foreach: aboutMe">
+          <li class="col-md-3">
+            <h2 data-bind="text: heading"></h2>
+            <p data-bind="text: content"></p>
+          </li>
         </ul>
       <!-- END ROW -->
       </div>
@@ -85,5 +85,6 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script type="text/javascript" src="js/model.js"></script>
   </body>
 </html>
