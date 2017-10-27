@@ -12,30 +12,39 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-inverse">
+    <div class="container padding-none">
+
+      <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container">
-        <!-- TODO: Add logo to header -->
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Brandon Batten</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><strong>Brandon Batten</strong></a>
         </div>
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="https://frontendwebninja.blogspot.com/" target="_blank">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav text-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="https://frontendwebninja.blogspot.com/" target="_blank">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </nav>
+
+    </div>
 
     <div class="container">
 
       <!-- Large eye grabber with an intro and img with previous work in a computer -->
       <div class="row background-black margin-top-none color-white">
         <!-- TODO: Add a brief intro -->
-        <section class="col-md-6" data-bind="with: intro">
-          <h2 data-bind="text: heading"></h2>
+        <section class="col-md-6 display-text" data-bind="with: intro">
+          <h2 class="h4" data-bind="text: heading"></h2>
           <p data-bind="text: content"></p>
         </section>
 
@@ -43,7 +52,7 @@
         <section class="col-md-6">
           <img src="images/site_in_monitor.png" alt="Screen shot of prior work"
             alt="Screen shot of website designed by Brandon"
-            class="img-responsive">
+            class="img-responsive margin-auto">
         </section>
       <!-- END ROW -->
       </div>

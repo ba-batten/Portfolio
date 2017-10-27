@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Change Bootstrap styles*/
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
+  color: #9d9d9d;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+/* End Bootstrap styles */
+
+.background-black {
+  background: #222;
+}
+
+.color-white {
+  color: white;
+}
+
+.display-text {
+  text-align: center;
+}
+
+.margin-top-none {
+  margin-top: 0;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.padding-none {
+  padding: 0;
+}
