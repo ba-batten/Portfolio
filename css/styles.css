@@ -1,7 +1,8 @@
-/* Change Bootstrap styles*/
+/* Override Bootstrap styles */
 .navbar {
   margin-bottom: 0;
   border: none;
+  background: #333;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -18,18 +19,48 @@
   }
 }
 
-/* End Bootstrap styles */
+/* End Bootstrap style overrides */
+
+.about-me {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-me li {
+  border-bottom: 5px solid #333;
+  border-radius: 0 0 5px 5px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+}
 
 .background-black {
-  background: #222;
+  background: #333;
+}
+
+.center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .color-white {
   color: white;
 }
 
+.display {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.display img {
+  width: 75%;
+}
+
 .display-text {
   text-align: center;
+  margin-top: 7%;
 }
 
 .margin-top-none {
@@ -42,4 +73,14 @@
 
 .padding-none {
   padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me li {
+    margin: -30px 10px 0;
+    width: calc((100% / 3) - 30px);
+    display: inline-block;
+    border: 3px solid #ddd;
+    background: white;
+  }
 }

@@ -42,26 +42,25 @@
     <div class="container">
 
       <!-- Large eye grabber with an intro and img with previous work in a computer -->
-      <div class="row background-black margin-top-none color-white">
+      <div class="row background-black margin-top-none color-white display">
         <!-- TODO: Add a brief intro -->
-        <section class="col-md-6 display-text" data-bind="with: intro">
+        <section class="col-sm-6 display-text" data-bind="with: intro">
           <h2 class="h4" data-bind="text: heading"></h2>
           <p data-bind="text: content"></p>
         </section>
 
         <!-- TODO: Add a photo of a computer with one of my works displayed -->
-        <section class="col-md-6">
+        <section class="col-sm-6 text-center">
           <img src="images/site_in_monitor.png" alt="Screen shot of prior work"
-            alt="Screen shot of website designed by Brandon"
-            class="img-responsive margin-auto">
+            alt="Screen shot of website designed by Brandon">
         </section>
       <!-- END ROW -->
       </div>
 
       <!-- About Me list -->
       <div class="row" id="about-me">
-        <ul class="col-sm-12 text-justify" data-bind="foreach: aboutMe">
-          <li class="col-md-3">
+        <ul class="col-sm-12 text-justify about-me" data-bind="foreach: aboutMe">
+          <li class="  about-me-block">
             <h2 data-bind="text: heading" class="text-center"></h2>
             <p data-bind="text: content"></p>
           </li>
