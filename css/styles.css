@@ -33,6 +33,7 @@
   width: 90%;
   margin: 0 auto;
   padding: 5px;
+  background: white;
 }
 
 .background-black {
@@ -117,6 +118,23 @@
   .display-text {
     text-align: justify;
   }
+}
 
+@media screen and (min-width: 992px) {
+  .about-me {
+    margin-top: -30px;
+  }
 
+  .about-me-block {
+    border: 3px solid #9d9d9d;
+    padding: 10px;
+  }
+
+  .about-me-block h2 {
+    margin-top: 5px;
+  }
+
+  .about-me-block p {
+    margin-bottom: 30px;
+  }
 }
