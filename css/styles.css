@@ -97,10 +97,15 @@
     font-size: 20px;
   }
 
-  .display-text {
-    margin-top: 3%;
+  .display {
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .display-text {
+    margin-top: 3%;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
   }
 
   .display-text h2 {
