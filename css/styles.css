@@ -3,6 +3,7 @@
   margin-bottom: 0;
   border: none;
   background: #333;
+  width: 100%;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -60,7 +61,7 @@
 }
 
 .display-text {
-  text-align: center;
+  text-align: justify;
   margin-top: 7%;
 }
 
@@ -136,5 +137,9 @@
 
   .about-me-block p {
     margin-bottom: 30px;
+  }
+
+  .display-text {
+    margin-top: 7%;
   }
 }
