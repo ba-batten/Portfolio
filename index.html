@@ -13,7 +13,7 @@
   </head>
   <body>
 
-    <div class="container padding-none">
+    <div class="container padding-none top">
 
       <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container">
@@ -45,7 +45,7 @@
       <div class="row background-black margin-top-none color-white display">
         <!-- TODO: Add a brief intro -->
         <section class="col-sm-6 display-text" data-bind="with: intro">
-          <h2 class="h4" data-bind="text: heading"></h2>
+          <h2 data-bind="text: heading"></h2>
           <p data-bind="text: content"></p>
         </section>
 
@@ -60,7 +60,7 @@
       <!-- About Me list -->
       <div class="row" id="about-me">
         <ul class="col-sm-12 text-justify about-me" data-bind="foreach: aboutMe">
-          <li class="  about-me-block">
+          <li class="about-me-block">
             <h2 data-bind="text: heading" class="text-center"></h2>
             <p data-bind="text: content"></p>
           </li>
@@ -103,6 +103,15 @@
     <!-- END CONTAINER -->
     </div>
 
+    <!-- Make all block heights the same -->
+    <script async>
+      $(document).ready(function() {
+        if (window.innerWidth >= 768) {
+          var blockHeight = $('.about-me-block').height();
+          $('.about-me-block').css('height', blockHeight);
+        }
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
     <script type="text/javascript" src="js/model.js"></script>
   </body>
