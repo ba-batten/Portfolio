@@ -58,6 +58,16 @@ function AppViewModel() {
       label: "arcadeCloneModalLabel"
     },
     {
+      name: "Wikipedia Viewer",
+      url: "https://codepen.io/brandonbatten/pen/jGegZY",
+      pic: "images/wiki-viewer-square.jpeg",
+      description: "Takes search term to make AJAX call to Wikipedia API to search for" +
+        " Wikipedia articles",
+      id: "#wikipediaViewerModal",
+      xHashId: "wikipediaViewerModal",
+      label: "wikipediaViewerModalLabel"
+    },
+    {
       name: "Weather Widget",
       url: "https://codepen.io/brandonbatten/pen/eGXEEB",
       pic: "images/weather-square.jpeg",
@@ -76,16 +86,6 @@ function AppViewModel() {
       id: "#quoteMachineModal",
       xHashId: "quoteMachineModal",
       label: "quoteMachineModalLabel"
-    },
-    {
-      name: "Wikipedia Viewer",
-      url: "https://codepen.io/brandonbatten/pen/jGegZY",
-      pic: "images/wiki-viewer-square.jpeg",
-      description: "Takes search term to make AJAX call to Wikipedia API to search for" +
-        " Wikipedia articles",
-      id: "#wikipediaViewerModal",
-      xHashId: "wikipediaViewerModal",
-      label: "wikipediaViewerModalLabel"
     },
     {
       name: "Website Optimization",
