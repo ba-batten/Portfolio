@@ -87,6 +87,36 @@
   padding: 0;
 }
 
+.prev-work {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prev-work-item {
+  margin: 5px auto;
+  width: 290px;
+  height: 290px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.prev-work-item a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  margin: 0;
+  color: white;
+  font-size: 22px;
+}
+
+.prev-work-item a p {
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .about-me {
     margin-top: 20px;
@@ -125,6 +155,24 @@
   .display-text {
     text-align: justify;
   }
+
+  .prev-work-item {
+    margin: 10px 10px 0 0;
+    width: calc((100% / 3) - 10px);
+    position: relative;
+  }
+
+  .prev-work-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+
+  .prev-work-item:hover {
+    background: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+      ),
+      url(pic);
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -147,5 +195,9 @@
 
   .display-text {
     margin-top: 7%;
+  }
+
+  .prev-work-item a {
+    font-size: 22px;
   }
 }
