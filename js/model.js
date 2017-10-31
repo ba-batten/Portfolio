@@ -62,6 +62,42 @@ function AppViewModel() {
       label: "arcadeCloneModalLabel"
     },
     {
+      name: "Weather Widget",
+      url: "https://codepen.io/brandonbatten/pen/eGXEEB",
+      smallPic: "images/frogger-clone_370.jpeg",
+      medPic: "images/frogger-clone_640.jpeg",
+      largePic: "images/frogger-clone.jpeg",
+      description: "Weather widget that makes AJAX calls to get the current location," +
+        " and weather conditions to display along with the date and time.",
+      id: "#weatherWidgetModal",
+      xHashId: "weatherWidgetModal",
+      label: "weatherWidgetModalLabel"
+    },
+    {
+      name: "Quote Machine",
+      url: "https://codepen.io/brandonbatten/pen/oGqJGE",
+      smallPic: "images/frogger-clone_370.jpeg",
+      medPic: "images/frogger-clone_640.jpeg",
+      largePic: "images/frogger-clone.jpeg",
+      description: "Randomly displays quotes from the popular TV show \"The Office\"." +
+        " User is able to tweet quotes.",
+      id: "#quoteMachineModal",
+      xHashId: "quoteMachineModal",
+      label: "quoteMachineModalLabel"
+    },
+    {
+      name: "Wikipedia Viewer",
+      url: "https://codepen.io/brandonbatten/pen/jGegZY",
+      smallPic: "images/frogger-clone_370.jpeg",
+      medPic: "images/frogger-clone_640.jpeg",
+      largePic: "images/frogger-clone.jpeg",
+      description: "Takes search term to make AJAX call to Wikipedia API to search for" +
+        " Wikipedia articles",
+      id: "#wikipediaViewerModal",
+      xHashId: "wikipediaViewerModal",
+      label: "wikipediaViewerModalLabel"
+    },
+    {
       name: "Website Optimization",
       url: "https://github.com/ba-batten/WebsiteOptimization",
       smallPic: "images/pizzeria-370.jpeg",
