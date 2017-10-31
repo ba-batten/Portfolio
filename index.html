@@ -76,9 +76,9 @@
         </section>
         <!-- TODO: Populate list with featured works via Knockout -->
         <section class="col-md-9">
-          <ul data-bind="foreach: prevWork">
-            <li>
-              <img data-bind="attr: { src: smallPic, alt: name }" class="img-responsive">
+          <ul data-bind="foreach: prevWork" class="prev-work">
+            <li data-bind="style: {'backgroundImage': 'url('+ pic +')', 'backgroundSize': 'contain' }" class="prev-work-item">
+              <!-- <img data-bind="attr: { src: pic, alt: name }" class="img-responsive"> -->
               <a data-bind="attr: { href: url }" target="_blank"><h3 data-bind="text: name"></h3></a>
               <p data-bind="text: description"></p>
             </li>
