@@ -122,15 +122,21 @@
 @media screen and (min-width: 768px) {
   .about-me {
     margin-top: 20px;
+    text-align: center;
   }
   .about-me-block {
     border-radius: 0;
-    /*border: 5px solid #9d9d9d;*/
+    /*border: 1px solid #9d9d9d;*/
     display: inline-block;
     padding: 0px;
-    margin: 0 10px 0;
-    width: calc((100% / 3) - 25px);
+    margin-right: 20px;
+    width: calc((100% / 3) - 30px);
     vertical-align: top;
+    text-align: left;
+  }
+
+  .about-me-block:last-of-type {
+    margin-right: 0;
   }
 
   .about-me-block h2 {
@@ -187,7 +193,7 @@
 
 @media screen and (min-width: 992px) {
   .about-me {
-    margin-top: -30px;
+    margin-top: -40px;
   }
 
   .about-me-block {
