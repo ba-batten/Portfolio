@@ -91,6 +91,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .prev-work-item {
@@ -105,6 +106,7 @@
 .prev-work-item a {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   background: rgba(0,0,0,0.7);
   padding: 10px;
@@ -156,10 +158,18 @@
     text-align: justify;
   }
 
+  .prev-work {
+    text-align: left;
+  }
+
   .prev-work-item {
     margin: 10px 10px 0 0;
     width: calc((100% / 3) - 10px);
     position: relative;
+  }
+
+  .prev-work-item a {
+    font-size: 14px;
   }
 
   .prev-work-item:nth-child(3n + 3) {
