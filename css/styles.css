@@ -28,6 +28,11 @@
 
 /* End Bootstrap style overrides */
 
+*:focus {
+  /*border: none;*/
+  outline: none;
+}
+
 .about-me {
   list-style-type: none;
   margin: 0;
@@ -193,7 +198,7 @@
 
 @media screen and (min-width: 992px) {
   .about-me {
-    margin-top: -40px;
+    /*margin-top: -40px;*/
   }
 
   .about-me-block {
@@ -207,6 +212,10 @@
 
   .about-me-block p {
     margin-bottom: 30px;
+  }
+
+  .display {
+    margin-bottom: -40px;
   }
 
   .display-text {
