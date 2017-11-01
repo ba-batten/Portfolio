@@ -43,7 +43,7 @@
     <div class="container">
 
       <!-- Large eye grabber with an intro and img with previous work in a computer -->
-      <div class="row margin-top-none color-white display" id="home">
+      <div class="row-+* margin-top-none color-white display" id="home">
         <!-- TODO: Add a brief intro -->
         <section class="col-sm-6 display-text" data-bind="with: intro">
           <h2 data-bind="text: heading"></h2>
@@ -124,6 +124,8 @@
           var liWidth = $('.prev-work-item').css('width');
           $('.prev-work-item').css('height', liWidth);
         }
+
+        resizePrevWorks();
 
         if (window.innerWidth >= 768) {
           resizeBlocks();
