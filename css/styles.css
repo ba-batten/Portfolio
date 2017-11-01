@@ -103,7 +103,7 @@
 
 .prev-work-item {
   margin: 0 5px 5px 0;
-  width: calc((100% / 2) - 10px);
+  width: calc((100% / 2) - 5px);
   /*height: 290px;*/
   display: inline-block;
   vertical-align: top;
