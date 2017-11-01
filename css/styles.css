@@ -98,7 +98,7 @@
   padding: 0;
   margin: 0;
   /*text-align: center;*/
-  border: thin solid blue;
+  /*border: thin solid blue;*/
 }
 
 .prev-work-item {
@@ -108,7 +108,7 @@
   display: inline-block;
   vertical-align: top;
   position: relative;
-  border: thin solid green;
+  /*border: thin solid green;*/
 }
 
 .prev-work-item:nth-child(2n+2) {
