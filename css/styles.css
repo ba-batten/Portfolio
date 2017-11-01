@@ -27,6 +27,13 @@
 }
 
 /* End Bootstrap style overrides */
+body {
+  color: #514b4b;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
+}
 
 *:focus {
   /*border: none;*/
