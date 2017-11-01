@@ -109,13 +109,26 @@
     <!-- Make all block heights the same -->
     <script async>
       $(document).ready(function() {
-        if (window.innerWidth >= 768) {
-          var blockHeight = $('.about-me-block').height();
-          $('.about-me-block').css('height', blockHeight);
+        var blockHeight = $('.about-me-block').height();
 
+        function resizeBlocks() {
+          $('.about-me-block').css('height', blockHeight);
         }
-        var liWidth = $('.prev-work-item').css('width');
-        $('.prev-work-item').css('height', liWidth);
+
+        function resizePrevWorks() {
+          var liWidth = $('.prev-work-item').css('width');
+          $('.prev-work-item').css('height', liWidth);
+        }
+
+        if (window.innerWidth >= 768) {
+          resizeBlocks();
+          resizePrevWorks();
+        }
+
+        $(window).resize(function() {
+          // resizeBlocks();
+          resizePrevWorks();
+        });
       });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
