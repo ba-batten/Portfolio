@@ -100,13 +100,43 @@
           <hr>
         </div>
         <!-- TODO: Add contact information -->
-        <ul class="col-xs-12 contact-info">
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-envelope-alt"></span><p>Email</p></a></li>
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-mobile-phone"></span><p>Phone</p></a></li>
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-linkedin"></span><p>LinkedIn</p></a></li>
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-twitter"></span><p>GitHub</p></a></li>
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-twitter"></span><p>Twitter</p></a></li>
-          <li class="text-center"><a href="#"><span class="contact-icon fontawesome-laptop"></span><p>Blog</p></a></li>
+        <ul class="col-xs-12 contact-info text-center">
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-envelope-alt"></span>
+              <p>Email</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-phone"></span>
+              <p>Phone</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-linkedin"></span>
+              <p>LinkedIn</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-github"></span>
+              <p>GitHub</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-twitter"></span>
+              <p>Twitter</p>
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="#">
+              <span class="contact-icon fontawesome-laptop"></span>
+              <p>Blog</p>
+            </a>
+          </li>
         </ul>
       <!-- END ROW -->
       </div>
@@ -133,7 +163,13 @@
           $('.prev-work-item').css('height', liWidth);
         }
 
+        function resizeContactIcons() {
+          var iconHeight = $('.contact-icon').css('height');
+          $('.contact-icon').css('width', iconHeight);
+        }
+
         resizePrevWorks();
+        resizeContactIcons();
 
         if (window.innerWidth >= 768) {
           resizeBlocks();

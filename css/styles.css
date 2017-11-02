@@ -77,9 +77,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .contact-icon {
-  color: green;
-  font-size: 20px;
+  color: white;
+  background: #333;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
   display: block;
+}
+
+.contact-info {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  display: inline-block;
+  margin: 10px;
 }
 
 .display {
@@ -174,6 +188,10 @@ hr {
 
   .about-me-block h2 {
     font-size: 20px;
+  }
+
+  .contact-icon {
+    font-size: 40px;
   }
 
   .display {
