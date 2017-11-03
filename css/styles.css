@@ -40,13 +40,6 @@ h1, h2, h3, h4, h5 {
   outline: none;
 }
 
-i {
-  background: #333;
-  padding: 15px;
-  border-radius: 50%;
-  color: white;
-}
-
 .about-me {
   list-style-type: none;
   margin: 0;
@@ -76,24 +69,32 @@ i {
   color: white;
 }
 
-.contact-icon {
-  color: white;
-  background: #333;
-  padding: 10px;
-  border-radius: 50%;
-  /*font-size: 30px;*/
-  display: block;
-}
-
 .contact-info {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+.contact-info i {
+  color: #333;
+  margin: 15px;
+}
+
 .contact-info li {
   display: inline-block;
   margin: 10px;
+  color: #333;
+  border: thin solid red;
+  width: 106px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info a:hover, .contact-info i:hover {
+  color: gray;
 }
 
 .display {
