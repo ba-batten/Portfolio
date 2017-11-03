@@ -220,18 +220,17 @@ hr {
     text-align: left;
   }
 
-  .prev-work-item {
+  .prev-work-item, .prev-work-item:nth-child(2n+2) {
     margin: 10px 10px 0 0;
     width: calc((100% / 3) - 10px);
     position: relative;
   }
 
-  .prev-work-item a {
-    font-size: 14px;
-  }
-
   .prev-work-item:nth-child(3n + 3) {
     margin-right: 0;
+  }
+  .prev-work-item a {
+    font-size: 14px;
   }
 
   .prev-work-item:hover {
