@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
   display: inline-block;
   margin: 5px;
   color: #333;
-  border: thin solid red;
+  /*border: thin solid red;*/
   width: 110px;
   font-size: 12px;
 }
