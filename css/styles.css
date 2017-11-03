@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .display img {
+  display:  none;
   width: 75%;
 }
 
@@ -200,6 +201,10 @@ hr {
     padding-left: 25px;
     padding-right: 25px;
     background: url("../images/computer-1280.jpeg");
+  }
+
+  .display img {
+    display: block;
   }
 
   .display-text {
