@@ -205,7 +205,6 @@ hr {
 
   .display img {
     display: block;
-    margin: 0 auto;
   }
 
   .display-text {
@@ -270,7 +269,7 @@ hr {
   }
 
   .display {
-    margin-bottom: -40px;
+    margin-bottom: -60px;
   }
 
   .display-text {
