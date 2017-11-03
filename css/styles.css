@@ -77,15 +77,16 @@ h1, h2, h3, h4, h5 {
 
 .contact-info i {
   color: #333;
-  margin: 15px;
+  margin: 10px;
 }
 
 .contact-info li {
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
   color: #333;
   border: thin solid red;
-  width: 106px;
+  width: 110px;
+  font-size: 12px;
 }
 
 .contact-info a {
