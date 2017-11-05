@@ -78,7 +78,7 @@
           <h3>Placeholder Stuff</h3>
         </section>
         <!-- TODO: Populate list with featured works via Knockout -->
-        <section class="col-sm-9">
+        <section class="col-sm-9 section-padding-bottom">
           <ul data-bind="foreach: prevWork" class="prev-work">
             <li class="prev-work-item"
               data-bind="style: { 'background-image': 'url(' + pic + ')',
@@ -106,8 +106,9 @@
       <div class="container-fluid background-black">
         <div class="container">
           <footer class="row contact" id="contact">
-            <div class="div-sm-3">
-              <h2 class="color-white contact-header">Contact</h2>
+            <!-- Contact Info -->
+            <div class="col-sm-4">
+              <h2 class="color-white header-inline-block">Contact</h2>
               <ul class="col-xs-12 contact-info fa-ul" style="margin-left: 1em">
                 <li>
                   <i class="fa fa-envelope fa-li" aria-hidden="true"></i>
@@ -145,6 +146,11 @@
                     <p>Blog</p>
                   </a>
                 </li>
+              </ul>
+            </div>
+            <div class="div-sm-4">
+              <h2 class="color-white header-inline-block">Links</h2>
+              <ul class="col-xs-12">
               </ul>
             </div>
           </footer>
