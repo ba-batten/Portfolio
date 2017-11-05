@@ -76,24 +76,30 @@ h1, h2, h3, h4, h5 {
   padding: 0;
 }
 
+.contact-info a {
+  color: white;
+  text-decoration: none;
+}
+
 .contact-info i {
-  color: #333;
-  margin: 10px;
+  color: white;
+  /*margin: 10px;*/
+}
+
+.contact-info i,
+.contact-info p {
+  display: inline;
 }
 
 .contact-info li {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 5px;
   color: #333;
   /*border: thin solid red;*/
-  width: 110px;
+  /*width: 110px;*/
   font-size: 12px;
 }
 
-.contact-info a {
-  color: #333;
-  text-decoration: none;
-}
 
 .contact-info a:hover, .contact-info i:hover {
   color: gray;
