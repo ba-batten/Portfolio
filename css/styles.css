@@ -27,6 +27,7 @@
 }
 
 /* End Bootstrap style overrides */
+
 body {
   color: #777;
 }
@@ -70,6 +71,10 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
+.contact {
+  margin: 0;
+}
+
 .contact-info {
   list-style-type: none;
   margin: 0;
@@ -83,7 +88,6 @@ h1, h2, h3, h4, h5 {
 
 .contact-info i {
   color: white;
-  /*margin: 10px;*/
 }
 
 .contact-info i,
