@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+
 .contact-info {
   list-style-type: none;
   margin: 0;
@@ -132,6 +133,10 @@ h1, h2, h3, h4, h5 {
 .display-text h2 {
   font-size: 16px;
   color: white;
+}
+
+.header-inline-block {
+  display: inline-block;
 }
 
 hr {
