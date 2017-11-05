@@ -80,18 +80,21 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.contact-info {
+.contact-info,
+.links-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.contact-info a {
+.contact-info a,
+.links-list a {
   color: white;
   text-decoration: none;
 }
 
-.contact-info i {
+.contact-info i,
+.links-list i {
   color: white;
 }
 
@@ -100,7 +103,8 @@ h1, h2, h3, h4, h5 {
   display: inline;
 }
 
-.contact-info li {
+.contact-info li,
+.links-list li {
   /*display: inline-block;*/
   margin: 5px;
   color: #333;
@@ -110,7 +114,10 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.contact-info a:hover, .contact-info i:hover {
+.contact-info a:hover,
+.contact-info i:hover,
+.links-list a:hover,
+.links-list i:hover {
   color: gray;
 }
 
