@@ -23,6 +23,7 @@
 @media (min-width: 768px) {
   .navbar {
     border-radius: 0;
+    background: transparent;
   }
 }
 
@@ -125,10 +126,11 @@ h1, h2, h3, h4, h5 {
 .display {
   background: #333;
   padding: 15px;
+  margin: 0;
 }
 
 .display img {
-  display:  none;
+  display: none;
   width: 75%;
 }
 
@@ -229,7 +231,7 @@ hr {
   }
 
   .display {
-    padding: 70px 0 50px;
+    padding: 70px 15px 50px;
     margin: -50px 0;
     background: url("../images/computer-1280.jpeg");
   }
