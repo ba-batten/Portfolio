@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5 {
   /*border: thin solid red;*/
   /*width: 110px;*/
   font-size: 12px;
-}
+}  padding: 70px 0 50px;
+  margin: -50px 0;
 
 
 .contact-info a:hover,
@@ -122,9 +123,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .display {
-  padding-top: 20px;
-  padding-bottom: 50px;
   background: #333;
+  padding: 15px;
 }
 
 .display img {
@@ -229,8 +229,8 @@ hr {
   }
 
   .display {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 70px 0 50px;
+    margin: -50px 0;
     background: url("../images/computer-1280.jpeg");
   }
 
