@@ -236,7 +236,8 @@ hr {
   .display {
     padding: 70px 15px 50px;
     margin: -50px 0;
-    background: url("../images/computer-1280.jpeg");
+    background: transparent;
+    /*background: url("../images/computer-1280.jpeg");*/
   }
 
   .display img {
@@ -257,6 +258,12 @@ hr {
 
   .display-text {
     text-align: justify;
+  }
+
+  .header {
+    padding-bottom: 50px;
+    margin-bottom: -60px;
+    background: url("../images/computer-1280.jpeg");
   }
 
   .prev-work {
@@ -304,6 +311,10 @@ hr {
 
   .display-text {
     margin-top: 7%;
+  }
+
+  .header {
+    background: url("../images/computer-1920.jpeg")
   }
 
   .prev-work-item a {
