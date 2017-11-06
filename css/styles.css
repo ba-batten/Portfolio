@@ -290,12 +290,6 @@ hr {
     /*margin-top: -40px;*/
   }
 
-  .about-me-block {
-    border: 1px solid #9d9d9d;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(50,50,50,0.8);
-  }
-
   .about-me-block h2 {
     margin-top: 5px;
   }
