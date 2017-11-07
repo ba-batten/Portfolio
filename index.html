@@ -195,8 +195,9 @@
       $(document).ready(function() {
 
         function resizeBlocks() {
+          var first = $('.about-me:first');
           $('.about-me-block').css('height', 'auto');
-          var blockHeight = $('.about-me-block').height();
+          var blockHeight = first.height();
           $('.about-me-block').css('height', blockHeight);
         }
 
