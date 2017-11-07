@@ -16,20 +16,25 @@ function AppViewModel() {
       content: 'I built my first web site in high school and have carried a passion for web development ' +
         'ever since.  There is not a day that goes by that I am not writing code or planning out a new project.' +
         '  You can find me hanging out with my family, taking in a football game, or knocking ' +
-        ' around some golf balls when I\'m not spending quality time with my laptop and favorite text-editor .'
+        ' around some golf balls when I\'m not spending quality time with my laptop and favorite text-editor .',
+      link: '',
+      linkDesc: ''
     },
     {
       heading: 'What I Can Do',
       content: 'My tech tool bag consists of HTML, CSS, and JavaScript.  I use several frameworks and libraries ' +
         ' such as Bootstrap, jQuery, and Knockout JS.  I design test suites with Jasmine.  Some other ' +
-        'technologies I take advantage of are Git for version control and Adobe products like Photoshop and Illustrator.'
+        'technologies I take advantage of are Git for version control and Adobe products like Photoshop and Illustrator.',
+      link: '',
+      linkDesc: ''
     },
     {
       heading: 'Check Out My Blog',
       content: 'Want to know my thoughts on all things web development and programming?  Maybe you want ' +
       'some insight on whatever I\'m thinking about that day or an in depth analysis of my favorite sports teams. ' +
       'Check out my new blog for all that and more!',
-      link: '#'
+      link: 'https://frontendwebninja.blogspot.com/',
+      linkDesc: 'Blog'
     }
   ]);
 
