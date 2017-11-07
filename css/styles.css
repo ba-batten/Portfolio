@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
   background: white;
 }
 
+
+
 .background-black {
   background: #333;
   color: white;
@@ -89,30 +91,33 @@ canvas {
   margin: 0;
 }
 
-
+.arcade-rules,
 .contact-info,
 .links-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 .contact-info a,
 .links-list a {
   color: white;
   text-decoration: none;
 }
 
+.arcade-rules i,
+.arcade-rules p,
 .contact-info i,
 .links-list i {
   color: white;
 }
 
+.arcade-rules i,
 .contact-info i,
 .contact-info p {
   display: inline;
 }
 
+.arcade-rules li,
 .contact-info li,
 .links-list li {
   /*display: inline-block;*/
@@ -121,9 +126,7 @@ canvas {
   /*border: thin solid red;*/
   /*width: 110px;*/
   font-size: 12px;
-}  padding: 70px 0 50px;
-  margin: -50px 0;
-
+}
 
 .contact-info a:hover,
 .contact-info i:hover,
