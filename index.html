@@ -58,8 +58,8 @@
 
       <main class="container main">
       <!-- About Me list -->
-      <div class="row" id="about-me">
-        <ul class="col-sm-12 text-justify about-me" data-bind="foreach: aboutMe">
+      <div class="row about-row" id="about-me">
+        <ul class="col-sm-12 about-me" data-bind="foreach: aboutMe">
           <li class="about-me-block">
             <h2 data-bind="text: heading" class="text-center"></h2>
             <p data-bind="text: content"></p>
@@ -193,9 +193,10 @@
     <!-- Make all block heights the same -->
     <script async>
       $(document).ready(function() {
-        var blockHeight = $('.about-me-block').height();
 
         function resizeBlocks() {
+          $('.about-me-block').css('height', 'auto');
+          var blockHeight = $('.about-me-block').height();
           $('.about-me-block').css('height', blockHeight);
         }
 
@@ -211,6 +212,7 @@
 
         resizePrevWorks();
         resizeContactIcons();
+        resizeBlocks();
 
         if (window.innerWidth >= 768) {
           resizeBlocks();
@@ -218,7 +220,7 @@
         }
 
         $(window).resize(function() {
-          // resizeBlocks();
+          resizeBlocks();
           resizePrevWorks();
         });
       });

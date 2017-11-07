@@ -1,4 +1,8 @@
 /* Override Bootstrap styles */
+.container-fluid {
+  padding: 0;
+}
+
 .navbar {
   margin-bottom: 0;
   border: none;
@@ -205,19 +209,18 @@ hr {
 @media screen and (min-width: 768px) {
   .about-me {
     margin-top: 20px;
-    text-align: center;
+    /*text-align: center;*/
   }
   .about-me-block {
     border-radius: 0;
     /*border: 1px solid #9d9d9d;*/
     display: inline-block;
-    padding: 0px;
     margin-right: 20px;
-    width: calc((100% / 3) - 30px);
+    width: calc((100% / 3) - 20px);
     vertical-align: top;
     text-align: left;
     border: 1px solid #9d9d9d;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     box-shadow: 0 0 5px rgba(50,50,50,0.8);
   }
 
@@ -302,7 +305,11 @@ hr {
   }
 
   .about-me-block p {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+  }
+
+  .about-row {
+    padding-left: 15px;
   }
 
   .display {
