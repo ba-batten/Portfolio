@@ -209,6 +209,7 @@ hr {
 @media screen and (min-width: 768px) {
   .about-me {
     margin-top: 20px;
+    padding-left: 15px;
     /*text-align: center;*/
   }
   .about-me-block {
@@ -296,22 +297,10 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
-  .about-me {
-    /*margin-top: -40px;*/
-  }
-
   .about-me-block h2 {
     margin-top: 5px;
   }
-
-  .about-me-block p {
-    /*margin-bottom: 30px;*/
-  }
-
-  .about-row {
-    padding-left: 15px;
-  }
-
+  
   .display {
     margin-bottom: -60px;
   }
