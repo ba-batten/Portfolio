@@ -147,4 +147,5 @@ document.addEventListener('keydown', function(e) {
   };
 
   player.handleInput(allowedKeys[e.keyCode]);
+  e.preventDefault();
 });
