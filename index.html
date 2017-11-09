@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="container-fluid header">
-      <nav class="navbar navbar-inverse navbar-static-top" index="10">
+      <nav class="navbar navbar-inverse navbar-fixed-top" index="10">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -40,13 +40,15 @@
         <!-- Large eye grabber with an intro and img with previous work in a computer -->
         <div class="row margin-top-none color-white display" id="home">
           <!-- TODO: Add a brief intro -->
-          <section class="col-sm-6 display-text" data-bind="with: intro">
-            <h2 data-bind="text: heading"></h2>
-            <p data-bind="text: content"></p>
+          <section class="col-sm-6 display-text" id="display-text" data-bind="with: intro">
+            <div class="display-container">
+              <h2 data-bind="text: heading"></h2>
+              <p data-bind="text: content"></p>
+            </div>
           </section>
 
           <!-- TODO: Add a photo of a computer with one of my works displayed -->
-          <section class="col-sm-6 text-center">
+          <section class="col-sm-6" id="display-img-container">
             <img src="images/site_in_monitor.png" alt="Screen shot of website designed by Brandon">
           </section>
         <!-- END ROW -->
@@ -54,7 +56,7 @@
     </div>
     </header>
 
-      <main class="container main">
+    <main class="container main">
       <!-- About Me list -->
       <div class="row about-row" id="about-me">
         <ul class="col-sm-12 about-me" data-bind="foreach: aboutMe">
@@ -91,10 +93,9 @@
     <!-- END CONTAINER -->
     </main>
 
-
-      <!-- Footer -->
-      <!-- TODO: Add info i.e. contact, social media, favorite links,  -->
-      <div class="container-fluid background-black">
+    <!-- Footer -->
+    <!-- TODO: Add info i.e. contact, social media, favorite links,  -->
+    <div class="container-fluid background-black">
         <div class="container">
           <footer class="row contact" id="contact">
             <!-- Contact Info -->
@@ -210,10 +211,21 @@
         </div>
       </div>
 
-
     <!-- Make all block heights the same -->
     <script async>
       $(document).ready(function() {
+
+        function verticalAlignDisplay() {
+          var imgHeight = $('#display-img-container').css('height');
+          var textHeight = $('#display-text').css('height');
+          console.log(textHeight);
+          $('#display-text').css('padding-top', function() {
+            return (imgHeight - textHeight) / 2;
+          });
+          $('#display-text').css('padding-bottom', function() {
+            return ((imgHeight - textHeight) / 2);
+          });
+        }
 
         function resizeBlocks() {
           var first = $('.about-me:first');
@@ -239,6 +251,7 @@
         if (window.innerWidth >= 768) {
           resizeBlocks();
           resizePrevWorks();
+          verticalAlignDisplay();
         }
 
         $(window).resize(function() {
