@@ -182,6 +182,11 @@ hr {
   padding: 0;
 }
 
+
+.portfolio {
+  margin: 100px 0;
+}
+
 .prev-work {
   list-style-type: none;
   padding: 0;
@@ -284,7 +289,7 @@ hr {
 
   .prev-work-item, .prev-work-item:nth-child(2n+2) {
     margin: 10px 10px 0 0;
-    width: calc((100% / 4) - 15px);
+    width: calc((100% / 4) - 11px);
     position: relative;
   }
 
