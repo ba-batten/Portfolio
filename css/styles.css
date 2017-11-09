@@ -284,11 +284,11 @@ hr {
 
   .prev-work-item, .prev-work-item:nth-child(2n+2) {
     margin: 10px 10px 0 0;
-    width: calc((100% / 3) - 10px);
+    width: calc((100% / 4) - 15px);
     position: relative;
   }
 
-  .prev-work-item:nth-child(3n + 3) {
+  .prev-work-item:nth-child(4n + 4) {
     margin-right: 0;
   }
   .prev-work-item a {
