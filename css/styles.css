@@ -138,28 +138,28 @@ canvas {
 }*/
 
 .display-container {
-
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .display img {
   display: none;
   width: 75%;
-  margin: 0 auto;
+  /*margin: auto;*/
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .display-text {
+  /*background: green;*/
+  /*height: 300px;*/
 }
 
 .display-text h2 {
   font-size: 16px;
   color: white;
-}
-
-.flexbox {
- display:flex;
- justify-content:center;
- align-items: center;
- flex-flow: column;
 }
 
 .header-inline-block {
@@ -171,7 +171,7 @@ hr {
 }
 
 .margin-top-none {
-  margin-top: 0;
+  /*margin-top: 0;*/
 }
 
 .margin-auto {

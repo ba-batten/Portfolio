@@ -48,7 +48,7 @@
           </section>
 
           <!-- TODO: Add a photo of a computer with one of my works displayed -->
-          <section class="col-sm-6" id="display-img-container">
+          <section class="col-sm-6 display-text display-img img-responsive" id="display-img-container">
             <img src="images/site_in_monitor.png" alt="Screen shot of website designed by Brandon">
           </section>
         <!-- END ROW -->
@@ -215,16 +215,14 @@
     <script async>
       $(document).ready(function() {
 
-        function verticalAlignDisplay() {
-          var imgHeight = $('#display-img-container').css('height');
-          var textHeight = $('#display-text').css('height');
-          console.log(textHeight);
-          $('#display-text').css('padding-top', function() {
-            return (imgHeight - textHeight) / 2;
-          });
-          $('#display-text').css('padding-bottom', function() {
-            return ((imgHeight - textHeight) / 2);
-          });
+        function setPadding() {
+          if (window.innerWidth > 844) {
+            var imgHeight = $('.display img').height();
+            $('.display-text').css('height', imgHeight);
+          }
+          else {
+            // $('.display-text').css('height', '100%');
+          }
         }
 
         function resizeBlocks() {
@@ -247,16 +245,17 @@
         resizePrevWorks();
         resizeContactIcons();
         resizeBlocks();
+        setPadding();
 
         if (window.innerWidth >= 768) {
           resizeBlocks();
           resizePrevWorks();
-          verticalAlignDisplay();
         }
 
         $(window).resize(function() {
           resizeBlocks();
           resizePrevWorks();
+          setPadding();
         });
       });
     </script>
