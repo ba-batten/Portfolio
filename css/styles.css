@@ -15,7 +15,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
-  color: #9d9d9d;
+  color: #adc0d2;
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +43,10 @@ footer {
 
 h1, h2, h3, h4, h5 {
   color: #555;
+}
+
+h2.text-center {
+  margin-top: 70px;
 }
 
 *:focus {
@@ -280,7 +284,7 @@ hr {
 
   .header {
     padding-bottom: 50px;
-    margin-bottom: -60px;
+    margin-bottom: 60px;
     background: url("../images/computer-1280.jpeg");
   }
 
