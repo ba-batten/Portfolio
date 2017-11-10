@@ -12,7 +12,7 @@
     <title>Brandon Batten</title>
   </head>
   <body>
-    <header class="container-fluid header">
+    <header class="container-fluid header" id="home">
       <nav class="navbar navbar-inverse navbar-fixed-top" index="10">
         <div class="container">
           <div class="navbar-header">
@@ -22,7 +22,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><strong>Brandon Batten</strong></a>
+            <a class="navbar-brand" href="#home"><strong>Brandon Batten</strong></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav text-center">
@@ -31,7 +31,6 @@
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="https://frontendwebninja.blogspot.com/" target="_blank">Blog</a></li>
-              <li><a href="Resume.pdf" target="_blank">Résumé</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -158,7 +157,7 @@
                 </li>
                 <li>
                   <i class="fa fa-code fa-li" aria-hidden="true"></i>
-                  <a href="https://codepen.io/" target="_blank">
+                  <a href="https://codepen.io/brandonbatten/" target="_blank">
                     Codepen
                   </a>
                 </li>
@@ -170,9 +169,13 @@
                 </li>
                 <li>
                   <i class="fa fa-code fa-li" aria-hidden="true"></i>
-                  <a href="https://github.com/" target="_blank">
+                  <a href="https://github.com/ba-batten" target="_blank">
                     GitHub
                   </a>
+                </li>
+                <li>
+                  <i class="fa fa-code fa-li" aria-hidden="true"></i>
+                  <a href="Resume.pdf" target="_blank">Résumé</a>
                 </li>
               </ul>
             </div>
@@ -221,7 +224,7 @@
             $('.display-text').css('height', imgHeight);
           }
           else {
-            // $('.display-text').css('height', '100%');
+            $('.display-text').css('height', '100%');
           }
         }
 
