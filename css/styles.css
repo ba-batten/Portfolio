@@ -131,9 +131,6 @@ canvas {
 }
 
 .display {
-  background: url("../images/brandon-sm.jpg");
-  background-position: bottom left;
-  background-size: cover;
   padding: 15px;
   margin: 0;
   height: 100vh;
@@ -145,9 +142,12 @@ canvas {
 }*/
 
 .display-container {
-  position: absolute;
+  /*text-align: right;*/
+  margin-top: 30%;
+  text-shadow: 1px 1px black;
+  /*position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
 }
 
 .display img {
@@ -166,8 +166,20 @@ canvas {
 }
 
 .display-text h2 {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
+  text-align: center;
+  display: inline;
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(
+    rgba(51,51,51,0.5),
+    rgba(51,51,51,0.5)
+    ), url("../images/brandon-sm.jpg");
+  background-position: bottom left;
+  background-size: cover;
 }
 
 .header-inline-block {
@@ -276,20 +288,35 @@ hr {
     /*background: url("../images/computer-1280.jpeg");*/
   }
 
+  .display-container {
+    /*text-align: right;*/
+    margin-top: 10%;
+  }
+
   .display img {
     display: block;
   }
 
   .display-text h2 {
-    text-align: left;
-    font-size: 18px;
-    line-height: 1.3em;
+    display: inline;
+    font-size: 40px;
   }
+
+  /*.display-text h2 {
+    text-align: right;
+    font-size: 20px;
+    line-height: 1.3em;
+  }*/
 
   .header {
     padding-bottom: 50px;
     margin-bottom: 60px;
-    background: url("../images/brandon-md.jpg");
+    background: linear-gradient(
+      rgba(51,51,51,0.5),
+      rgba(51,51,51,0.5)
+      ), url("../images/brandon-md.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
     background-position: left bottom;
   }
 
@@ -329,7 +356,10 @@ hr {
   }
 
   .header {
-    background: url("../images/brandon-lg.jpg");
+    background: linear-gradient(
+      rgba(51,51,51,0.5),
+      rgba(51,51,51,0.5)
+      ), url("../images/brandon-lg.jpg");
     background-position: bottom left;
     background-size: cover;
 
@@ -337,5 +367,15 @@ hr {
 
   .prev-work-item a {
     font-size: 20px;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1400px) {
+  .display-container {
+    text-align: right;
+    margin-top: 25%;
+  }
+  .display-text h2 {
+    font-size: 35px;
   }
 }
