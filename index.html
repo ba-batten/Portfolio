@@ -209,9 +209,9 @@
             </div>
             <!-- Arcade Clone -->
             <div id="canvas-container" class="col-sm-3 hidden-xs game">
-              <script src="js/resources.js"></script>
-              <script src="js/app.js"></script>
-              <script src="js/engine.js"></script>
+              <script src="js/resources.js" defer></script>
+              <script src="js/app.js" defer></script>
+              <script src="js/engine.js" defer></script>
             </div>
           </footer>
         </div>
@@ -305,6 +305,22 @@
           }
         });
     </script>
+    <!-- Change color of navbar background after scrolling past header -->
+    <!-- Acknowledge https://codepen.io/Abdel-fattah/pen/grXOak -->
+    <script async>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+        	var scroll = $(window).scrollTop();
+      	  if (scroll < window.innerHeight - 50) {
+      	    $(".navbar").css("background" , "transparent");
+      	  }
+
+      	  else{
+      		  $(".navbar").css("background" , "rgba(51,51,51,1)");
+      	  }
+        })
+      })
+</script>
     <!-- Fontawesome -->
     <script src="https://use.fontawesome.com/f142b6355b.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
