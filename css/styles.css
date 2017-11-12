@@ -1,3 +1,12 @@
+/*
+Colors:
+#9E9828 //yellow
+#A64527 //orange
+#7E2921 //red
+#313957 //blue
+#B2A293 //beige
+*/
+
 /* Override Bootstrap styles */
 .container-fluid {
   padding: 0;
@@ -35,14 +44,20 @@
 
 body {
   color: #777;
+  background: white;
 }
 
 footer {
   padding: 80px 0 40px;
 }
 
+.footer {
+  background: #A64527;
+
+}
+
 h1, h2, h3, h4, h5 {
-  color: #555;
+  color: #313957;
 }
 
 h2.text-center {
@@ -118,7 +133,7 @@ canvas {
 .links-list li {
   /*display: inline-block;*/
   margin: 5px;
-  color: #333;
+  color: #313957;
   /*border: thin solid red;*/
   /*width: 110px;*/
   font-size: 12px;
@@ -191,7 +206,7 @@ canvas {
 
 hr {
   margin: 40px 0;
-  border-top: 2px solid #333;
+  border-top: 2px solid #313957;
 }
 
 .margin-top-none {
