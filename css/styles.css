@@ -131,7 +131,6 @@ canvas {
 }
 
 .display {
-  background: url("../images/brandon-sm.jpg");
   background-position: bottom left;
   background-size: cover;
   padding: 15px;
@@ -177,6 +176,12 @@ canvas {
 
 .header {
   height: 100vh;
+  background: linear-gradient(
+    rgba(62,42,36,0.5),
+    rgba(62,42,36,0.5)
+    ), url("../images/city_scape-sm.jpg");
+  background-size: cover;
+
 }
 
 .header-inline-block {
@@ -296,8 +301,10 @@ hr {
   .header {
     padding-bottom: 50px;
     margin-bottom: 60px;
-    background: url("../images/brandon-md.jpg");
-    -webkit-background-size: cover;
+    background: linear-gradient(
+      rgba(62,42,36,0.5),
+      rgba(62,42,36,0.5)
+      ), url("../images/city_scape-md.jpg");    -webkit-background-size: cover;
     background-size: cover;
     background-position: left bottom;
   }
@@ -338,7 +345,10 @@ hr {
   }
 
   .header {
-    background: url("../images/brandon-lg.jpg");
+    background: linear-gradient(
+      rgba(62,42,36,0.5),
+      rgba(62,42,36,0.5)
+      ), url("../images/city_scape.jpg");
     background-position: bottom left;
     background-size: cover;
 
