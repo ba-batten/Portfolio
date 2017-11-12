@@ -6,7 +6,7 @@
 .navbar {
   margin-bottom: 0;
   border: none;
-  background: transparent;
+  background: rgba(51,51,51,0.5);
   /*width: 100%;*/
 }
 
@@ -34,7 +34,6 @@
 
 body {
   color: #777;
-  background: white;
 }
 
 footer {
@@ -132,6 +131,9 @@ canvas {
 }
 
 .display {
+  background: url("../images/brandon-sm.jpg");
+  background-position: bottom left;
+  background-size: cover;
   padding: 15px;
   margin: 0;
   height: 100vh;
@@ -143,9 +145,12 @@ canvas {
 }*/
 
 .display-container {
-  /*text-align: right;*/
-  margin-top: 30%;
   text-shadow: 1px 1px black;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   /*position: absolute;
   top: 50%;
   transform: translateY(-50%);*/
@@ -161,26 +166,17 @@ canvas {
 }
 
 .display-text {
-  /*background: green;*/
-  /*height: 300px;*/
-  margin: 10% 0 0 auto;
+  position: relative;
+  height: 100vh;
 }
 
 .display-text h2 {
-  font-size: 18px;
+  font-size: 1.5em;
   color: white;
-  text-align: center;
-  display: inline;
 }
 
 .header {
   height: 100vh;
-  background: linear-gradient(
-    rgba(51,51,51,0.5),
-    rgba(51,51,51,0.5)
-    ), url("../images/brandon-sm.jpg");
-  background-position: bottom left;
-  background-size: cover;
 }
 
 .header-inline-block {
@@ -283,15 +279,10 @@ hr {
   }
 
   .display {
-    padding: 70px 15px 50px;
+    /*padding: 70px 15px 50px;*/
     margin: 0;
     background: transparent;
     /*background: url("../images/computer-1280.jpeg");*/
-  }
-
-  .display-container {
-    /*text-align: right;*/
-    margin-top: 10%;
   }
 
   .display img {
@@ -299,23 +290,13 @@ hr {
   }
 
   .display-text h2 {
-    display: inline;
-    font-size: 40px;
+    font-size: 2em;
   }
-
-  /*.display-text h2 {
-    text-align: right;
-    font-size: 20px;
-    line-height: 1.3em;
-  }*/
 
   .header {
     padding-bottom: 50px;
     margin-bottom: 60px;
-    background: linear-gradient(
-      rgba(51,51,51,0.5),
-      rgba(51,51,51,0.5)
-      ), url("../images/brandon-md.jpg");
+    background: url("../images/brandon-md.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: left bottom;
@@ -357,10 +338,7 @@ hr {
   }
 
   .header {
-    background: linear-gradient(
-      rgba(51,51,51,0.5),
-      rgba(51,51,51,0.5)
-      ), url("../images/brandon-lg.jpg");
+    background: url("../images/brandon-lg.jpg");
     background-position: bottom left;
     background-size: cover;
 
@@ -368,15 +346,5 @@ hr {
 
   .prev-work-item a {
     font-size: 20px;
-  }
-}
-
-@media screen and (orientation: landscape) and (min-width: 1400px) {
-  .display-container {
-    text-align: right;
-    margin-top: 25%;
-  }
-  .display-text h2 {
-    font-size: 35px;
   }
 }
