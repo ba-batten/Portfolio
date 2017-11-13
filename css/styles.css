@@ -44,7 +44,7 @@ Colors:
 /* End Bootstrap style overrides */
 
 body {
-  color: #777;
+  color: darkgray;
   background: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -285,7 +285,7 @@ hr {
     width: calc((100% / 3) - 20px);
     vertical-align: top;
     text-align: left;
-    border: 3px solid #9d9d9d;
+    border: 1px solid #9E9828;
     padding: 10px 10px 10px 10px;
     /*box-shadow: 0 0 5px rgba(50,50,50,0.8);*/
   }
