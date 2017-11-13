@@ -46,6 +46,7 @@ Colors:
 body {
   color: #777;
   background: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -53,7 +54,7 @@ footer {
 }
 
 .footer {
-  background: #A64527;
+  background: #313957;
 
 }
 
@@ -188,6 +189,7 @@ canvas {
 
 .display-text h2 {
   font-size: 1.5em;
+  font-weight: 700;
   color: white;
 }
 
