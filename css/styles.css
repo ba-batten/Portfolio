@@ -188,7 +188,7 @@ canvas {
 }
 
 .display-text h2 {
-  font-size: 1.5em;
+  font-size: 5vw;
   font-weight: 700;
   color: white;
 }
@@ -314,7 +314,7 @@ hr {
   }
 
   .display-text h2 {
-    font-size: 2em;
+    font-size: 3vw;
   }
 
   .header {
