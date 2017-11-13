@@ -28,7 +28,7 @@
             <ul class="nav navbar-nav text-center">
               <!-- <li><a href="#home">Home</a></li> -->
               <li><a href="#home">Home</a></li>
-              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#about-me">About</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="https://frontendwebninja.blogspot.com/" target="_blank">Blog</a></li>
@@ -74,7 +74,7 @@
       <!-- Featured Work -->
       <div class="row portfolio" id="portfolio">
         <div class="col-xs-12">
-          <h2 class="text-center">Featured Work</h2>
+          <h2 class="text-center">Portfolio</h2>
           <hr>
         </div>
         <!-- TODO: Populate list with featured works via Knockout -->
@@ -310,7 +310,7 @@
       $(document).ready(function(){
         $(window).scroll(function(){
         	var scroll = $(window).scrollTop();
-      	  if (scroll < window.innerHeight) {
+      	  if (scroll < window.innerHeight - $('.navbar').height()) {
       	    $(".navbar").css("background" , "transparent");
       	  }
 
