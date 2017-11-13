@@ -196,8 +196,8 @@ canvas {
 .header {
   height: 100vh;
   background: linear-gradient(
-    rgba(62,42,36,0.5),
-    rgba(62,42,36,0.5)
+    rgba(62,42,36,0.7),
+    rgba(62,42,36,0.7)
     ), url("../images/city_scape-sm.jpg");
   background-size: cover;
 
@@ -321,8 +321,8 @@ hr {
     padding-bottom: 50px;
     margin-bottom: 60px;
     background: linear-gradient(
-      rgba(62,42,36,0.5),
-      rgba(62,42,36,0.5)
+      rgba(62,42,36,0.7),
+      rgba(62,42,36,0.7)
       ), url("../images/city_scape-md.jpg");    -webkit-background-size: cover;
     background-size: cover;
     background-position: left bottom;
@@ -365,8 +365,8 @@ hr {
 
   .header {
     background: linear-gradient(
-      rgba(62,42,36,0.5),
-      rgba(62,42,36,0.5)
+      rgba(62,42,36,0.7),
+      rgba(62,42,36,0.7)
       ), url("../images/city_scape.jpg");
     background-position: bottom left;
     background-size: cover;
