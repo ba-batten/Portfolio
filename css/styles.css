@@ -49,6 +49,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+canvas {
+  width: 100%;
+  padding: 20px 0;
+}
+
 footer {
   padding: 80px 0 40px;
 }
@@ -64,6 +69,11 @@ h1, h2, h3, h4, h5 {
 
 h2.text-center {
   margin-top: 70px;
+}
+
+hr {
+  margin: 40px 0;
+  border-top: 1px solid #A64527;
 }
 
 *:focus {
@@ -91,10 +101,6 @@ h2.text-center {
   color: white;
 }
 
-canvas {
-  width: 100%;
-  padding: 20px 0;
-}
 
 .color-white {
   color: white;
@@ -205,11 +211,6 @@ canvas {
 
 .header-inline-block {
   display: inline-block;
-}
-
-hr {
-  margin: 40px 0;
-  border-top: 1px solid #A64527;
 }
 
 .margin-top-none {
