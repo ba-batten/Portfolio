@@ -3,7 +3,7 @@ function AppViewModel() {
 
   self.intro = ko.observable(
     {
-      heading: 'Hi, I\'m Brandon and I\'m a Front-End Web Developer.',
+      heading: 'Hi, I\'m Brandon and I build websites.',
       content: 'My passion is creating beautiful web pages from scratch with elegant code. ' +
         'Take a look around and get to know a little bit about me and the work I do.  ' +
         'Hopefully we can work together on something amazing.'
