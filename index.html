@@ -235,7 +235,9 @@
           var first = $('.about-me:first');
           $('.about-me-block').css('height', 'auto');
           var blockHeight = first.height();
-          $('.about-me-block').css('height', blockHeight);
+          if (window.innerWidth > 768) {
+            $('.about-me-block').css('height', blockHeight);
+          }
         }
 
         function resizePrevWorks() {
@@ -250,7 +252,7 @@
 
         resizePrevWorks();
         resizeContactIcons();
-        resizeBlocks();
+        // resizeBlocks();
         setPadding();
 
         if (window.innerWidth >= 768) {

@@ -77,7 +77,7 @@ h2.text-center {
 }
 
 .about-me-block {
-  border-bottom: 5px solid #333;
+  /*border-bottom: 5px solid #333;*/
   border-radius: 0 0 5px 5px;
   width: 90%;
   margin: 0 auto;
