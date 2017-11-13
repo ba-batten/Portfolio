@@ -24,7 +24,8 @@ function AppViewModel() {
       heading: 'What I Can Do',
       content: 'My tech tool bag consists of HTML, CSS, and JavaScript.  I use several frameworks and libraries ' +
         ' such as Bootstrap, jQuery, and Knockout JS.  I design test suites with Jasmine.  Some other ' +
-        'technologies I take advantage of are Git for version control and Adobe products like Photoshop and Illustrator.',
+        'technologies I take advantage of are Git for version control and Adobe products like Photoshop and Illustrator ' +
+        'for when I need to edit or create an image.',
       link: '',
       linkDesc: ''
     },
