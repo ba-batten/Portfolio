@@ -1,5 +1,5 @@
 # Portfolio
-This is my portfolio that will be published to [brandonbatten.com](http://brandonbatten.com).  
+This is my portfolio that will be published to [brandonbatten.com](http://brandonbatten.com){:target="_blank"}.  
 
 ## Features
 * About section with a description of myself, a skills list, and a link to my new blog
